@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #202124;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img {
+    height: 40px;
+    width: 120px;
+}
+
+.header .menu {
+    display: flex;
+    align-items: center;
+}
+
+.header .menu a {
+    text-decoration: none;
+    color: #5f6368;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.header .menu a:hover {
+    text-decoration: underline;
+}
+
+/* Search Box */
+.search-box-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 580px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 10px 15px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.search-box input[type="text"] {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-box .icon {
+    margin: 0 10px;
+    color: #9aa0a6;
+}
+
+.search-box .icon:hover {
+    cursor: pointer;
+    color: #202124;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttons .btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #5f6368;
+    font-size: 14px;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttons .btn:hover {
+    background-color: #e8eaed;
+    border: 1px solid #e8eaed;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e0e0e0;
+    font-size: 12px;
+    color: #70757a;
+}
+
+.footer .left, .footer .right {
+    display: flex;
+}
+
+.footer .left a, .footer .right a {
+    text-decoration: none;
+    color: #70757a;
+    margin-right: 15px;
+}
+
+.footer .left a:hover, .footer .right a:hover {
+    text-decoration: underline;
+}
