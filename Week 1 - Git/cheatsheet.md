@@ -1,0 +1,15 @@
+# **Cheatsheet for GitHub**
+
+## What is GitHub?
+**GitHub** is a _version control system_. In simple words, it's the Google Drive for Coders which keeps track of different versions of your files.
+
+## What is a repository in GitHub?
+A **repository** is essentially a folder in which you keep all the folders and files relevant to that folder's use. Like if you're using the folder for a specific project, you should only keep the files and folders relevant to that project.
+
+## GitHub Commands
+```git clone <url>```
+- used to download (clone) a repository from GitHub to our computer
+- we can also specify the name of the folder in which we want the repository to be cloned by typing it in double quotes after the URL
+
+```git ```
+- 
