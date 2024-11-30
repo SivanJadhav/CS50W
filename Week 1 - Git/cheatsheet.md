@@ -72,11 +72,13 @@ git reset --hard <branch name, for e.g. 'origin/main'>
 git branch
 ```
 - lists all the branches in the repository
-- indicates the branch we are on right now by showing an asterik (*) beside its name
+- indicates the branch we are on right now by showing an asterisk (*) beside its name
 ---
+```sh
+git checkout <branch name>
+```
+- we can **checkout**, __shift the branch we are (working) on__, to a branch with this command. The command to create a branch and shift on it is:
 ```sh
 git checkout -b <branch name>
 ```
-- used to create a branch and checkout to it, that is to go to it.
-- to checkout to a branch which is already made, we do: ```git checkout <branch name>```
 ---
