@@ -18,3 +18,9 @@ A **repository** is essentially a folder in which you keep all the folders and f
 ```git commmit -m "<message>"```
 - this command saves a snapshot, like screen shot of the files we addded with `git add`, which we can (if needed) revert back to later
 - the message feild is a place to add a short description of the commit
+
+```git status```
+- this command reports the status of our code, like, if it's commited or not, added or not, or the status of our local code with the code on GitHub
+
+```git push```
+- like we have to turn on the Google Drive application on Windows to sync the files with Google Drive, we also have to use thi command to sync the commmits with GitHub
