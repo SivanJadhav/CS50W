@@ -7,10 +7,10 @@
 A **repository** is essentially a folder in which you keep all the folders and files relevant to that folder's use. For example, if you're using the folder for a specific project, you should only keep the files and folders relevant to that project.
 
 ## Merge Conflicts
-A **merge conflict** happens when we try to synchronize changes between the files on GitHub and on our local machine but `git` there are some changes that are conflicting in both versions, for example, on our local file a variable `a` might be defined as `a = "apple"` but on GitHub someone else (or we ourselves) might have changed its definition to `a = "arnold"`.
+A **merge conflict** happens when we try to synchronize changes between the files on GitHub and our local machine but `git` there are some changes that are conflicting in both versions, for example, on our local file a variable `a` might be defined as `a = "apple"` but on GitHub, someone else (or we) might have changed its definition to `a = "arnold"`.
 
 ## Branching
-- when we are working on something new, such as a new feature, which might break our (currently) working code, to avoid that we create a new __branch__ in which we would write the new code, for new feature or whatever it is. And, if we feel that the new code works, we can just **merge the branches**, merging the old and new code. Otherwise, we can **switch back to the branch** with the old working code, which was working. This proccess is called **branching**.
+- when we are working on something new, such as a new feature, which might break our (currently) working code, to avoid that we create a new __branch__ in which we would write the new code, for a new feature or whatever it is. And, if we feel that the new code works, we can just **merge the branches**, merging the old and new code. Otherwise, we can **switch back to the branch** with the old working code, which was working. This process is called **branching**.
 - The default branch which GitHub makes and puts on is '**main**'. It used to be called '**master**' a few years back.
 - A visual example of branching is:
 ```
@@ -63,7 +63,7 @@ git reset --hard <commit hash>
 ``` 
 or 
 ```sh
-git reset --hard <branch name, for e.g. 'origin/main'>
+git reset --hard <branch name, e.g.' origin/main'>
 ```
 - the main advantage of it is that we can save different versions of the same files or folders and then later revert to any one of them if we wish, and this command gives us one way to do that
 - the ```--hard``` flag tells GitHub that we completely want to revert to that change by resetting all the current files
