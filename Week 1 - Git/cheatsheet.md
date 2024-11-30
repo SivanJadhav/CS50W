@@ -1,39 +1,39 @@
 # **Cheatsheet for GitHub**
 
 ## What is GitHub?
-**GitHub** is a _version control system_. In simple words, it's the Google Drive for Coders which keeps track of different versions of your files.
+**GitHub** is a _version control system_. Simply put, the Google Drive for Coders keeps track of different versions of your files.
 
 ## What is a repository in GitHub?
-A **repository** is essentially a folder in which you keep all the folders and files relevant to that folder's use. Like if you're using the folder for a specific project, you should only keep the files and folders relevant to that project.
+A **repository** is essentially a folder in which you keep all the folders and files relevant to that folder's use. For example, if you're using the folder for a specific project, you should only keep the files and folders relevant to that project.
 
 ## Merge Conflicts
-A **merge conflict** happens when we try to synchronize changes between the files on GitHub and on our local machine but `git` there are some changes which are connflicting in both versions, for example, on our local file a variable `a` might be defined as `a = "apple"` but on GitHub someone else (or we ourselves) might have changed its definition to `a = "arnold"`
+A **merge conflict** happens when we try to synchronize changes between the files on GitHub and on our local machine but `git` there are some changes that are conflicting in both versions, for example, on our local file a variable `a` might be defined as `a = "apple"` but on GitHub someone else (or we ourselves) might have changed its definition to `a = "arnold"`.
 
 ## GitHub Commands
 ```git clone <url>```
-- this us used to download (clone) a repository from GitHub to our computer
+- this is used to download (clone) a repository from GitHub to our computer
 - we can also specify the name of the folder in which we want the repository to be cloned by typing it in double quotes after the URL
 
 ```git add <filename>```
-- with this command, we can tell git to track the files or folders specified. Git will remember the files or folders and save only those which you added when you commit the changes.
+- with this command, we can tell git to track the files or folders specified. Git will remember the files or folders and save only those that you added when you commit the changes.
 - we can also use a period (.) instead of the file name to add the whole directory in which we are while doing that
 
 ```git commmit -m "<message>"```
-- this command saves a snapshot, like screen shot of the files we addded with `git add`, which we can (if needed) revert back to later
-- the message feild is a place to add a short description of the commit
+- this command saves a snapshot, like a screenshot of the files we added with `git add`, which we can (if needed) revert to later
+- the message field is a place to add a short description of the commit
 
 ```git status```
-- this command reports the status of our code, like, if it's commited or not, added or not, or the status of our local code with the code on GitHub
+- this command reports the status of our code, like, if it's committed or not, added or not, or the status of our local code with the code on GitHub
 
 ```git push```
-- like we have to turn on the Google Drive application on Windows to sync the files with Google Drive, we also have to use thi command to sync the commmits with GitHub
+- like we have to turn on the Google Drive application on Windows to sync the files with Google Drive, we also have to use this command to sync the commits with GitHub
 
 ```git pull```
 - opposite of git push; we can download the latest changes from our files on GitHub to sync
 
 ```git log```
-- if we ever want to see the all the things we did to this repository, like what we added, commited, pushed, pulled, then we just just have to run this command and git will tell us everything we (or anyone) did to this repository (because it keeps log of what we do!)
+- if we ever want to see all the things we did to this repository, like what we added, committed, pushed, and pulled, then we just have to run this command, and git will tell us everything we (or anyone) did to this repository (because it keeps a log of what we do!)
 
 ```git reset --hard <commit hash>``` or ```git reset --hard <branch name, for e.g. 'origin/main'>```
-- main advantage of it is that we can save different versions of the same files or folders and then later revert back to any one of them if we wish, and this command gives us one way to do that
+- the main advantage of it is that we can save different versions of the same files or folders and then later revert to any one of them if we wish, and this command gives us one way to do that
 - the ```--hard``` flag tells GitHub that we completely want to revert to that change by resetting all the current files
