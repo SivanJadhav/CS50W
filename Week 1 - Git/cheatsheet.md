@@ -6,6 +6,9 @@
 ## What is a repository in GitHub?
 A **repository** is essentially a folder in which you keep all the folders and files relevant to that folder's use. Like if you're using the folder for a specific project, you should only keep the files and folders relevant to that project.
 
+## Merge Conflicts
+A **merge conflict** happens when we try to synchronize changes between the files on GitHub and on our local machine but `git` there are some changes which are connflicting in both versions, for example, on our local file a variable `a` might be defined as `a = "apple"` but on GitHub someone else (or we ourselves) might have changed its definition to `a = "arnold"`
+
 ## GitHub Commands
 ```git clone <url>```
 - this us used to download (clone) a repository from GitHub to our computer
