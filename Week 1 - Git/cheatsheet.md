@@ -63,7 +63,7 @@ git reset --hard <commit hash>
 ``` 
 or 
 ```sh
-git reset --hard <branch name, e.g.' origin/main'>
+git reset --hard <branch name, e.g. 'origin/main'>
 ```
 - the main advantage of it is that we can save different versions of the same files or folders and then later revert to any one of them if we wish, and this command gives us one way to do that
 - the ```--hard``` flag tells GitHub that we completely want to revert to that change by resetting all the current files
