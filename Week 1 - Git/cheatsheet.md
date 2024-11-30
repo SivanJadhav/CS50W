@@ -24,3 +24,6 @@ A **repository** is essentially a folder in which you keep all the folders and f
 
 ```git push```
 - like we have to turn on the Google Drive application on Windows to sync the files with Google Drive, we also have to use thi command to sync the commmits with GitHub
+
+```git pull```
+- opposite of git push; we can download the latest changes from our files on GitHub to sync
