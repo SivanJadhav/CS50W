@@ -30,3 +30,10 @@ A **merge conflict** happens when we try to synchronize changes between the file
 
 ```git pull```
 - opposite of git push; we can download the latest changes from our files on GitHub to sync
+
+```git log```
+- if we ever want to see the all the things we did to this repository, like what we added, commited, pushed, pulled, then we just just have to run this command and git will tell us everything we (or anyone) did to this repository (because it keeps log of what we do!)
+
+```git reset --hard <commit hash>``` or ```git reset --hard <branch name, for e.g. 'origin/main'>```
+- main advantage of it is that we can save different versions of the same files or folders and then later revert back to any one of them if we wish, and this command gives us one way to do that
+- the ```--hard``` flag tells GitHub that we completely want to revert to that change by resetting all the current files
