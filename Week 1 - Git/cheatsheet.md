@@ -8,8 +8,13 @@ A **repository** is essentially a folder in which you keep all the folders and f
 
 ## GitHub Commands
 ```git clone <url>```
-- used to download (clone) a repository from GitHub to our computer
+- this us used to download (clone) a repository from GitHub to our computer
 - we can also specify the name of the folder in which we want the repository to be cloned by typing it in double quotes after the URL
 
-```git ```
-- 
+```git add <filename>```
+- with this command, we can tell git to track the files or folders specified. Git will remember the files or folders and save only those which you added when you commit the changes.
+- we can also use a period (.) instead of the file name to add the whole directory in which we are while doing that
+
+```git commmit -m "<message>"```
+- this command saves a snapshot, like screen shot of the files we addded with `git add`, which we can (if needed) revert back to later
+- the message feild is a place to add a short description of the commit
