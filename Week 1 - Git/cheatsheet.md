@@ -82,3 +82,8 @@ git checkout <branch name>
 git checkout -b <branch name>
 ```
 ---
+```sh
+git merge <branch name>
+- this will merge the branch mentioned in the command with the branch which has the head on it, that is the branch we are on
+```
+---
