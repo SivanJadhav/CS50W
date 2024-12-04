@@ -1,7 +1,16 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	]
+    "folders": [
+        {
+            "path": "Week 0 - HTML and CSS"
+        },
+        {
+            "path": "Week 1 - Git"
+        },
+        {
+            "path": "Week 2 - Python"
+        },
+        {
+            "path": "Week 3 - Django"
+        }
+    ]
 }
