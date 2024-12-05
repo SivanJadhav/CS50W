@@ -15,4 +15,6 @@ def brian(request):
     return HttpResponse("Hello, Brian!")
 
 def greet(request, name):
-    return HttpResponse(f"Hello, {name.capitalize()}!")
+    return render(request, "/media/sivan/Data/My (Google) Drive/Extracurriculars (ECs)/(💻) Computer Science/CS50W/Week 3 - Django/lecture3/hello/templates/greet.html", {
+        "name": name.capitalize(),
+    })
